@@ -1,12 +1,20 @@
+import Footer from "components/Footer";
+import NavBar from "components/NavBar";
+import TabelaDedados from "components/TabelaDeDados";
 
 
 
 function App() {
   return (
-    <div>
-      <h1 className="text-primary" > teste </h1>
+    <>
+      <NavBar />
 
-    </div>
+      <div className="container">
+        <TabelaDedados />
+      </div>
+
+      <Footer />
+    </>
   );
 }
 
