@@ -2,8 +2,8 @@ import Chart from 'react-apexcharts'
 
 const GraficoDeRosca = () => {
     const mockData = {
-        series: [477138, 499928, 444867, 220426, 473088],
-        labels: ['Anakin', 'Barry Allen', 'Kal-El', 'Logan', 'Padmé']
+        series: [1.274, 1.326, 1.700, 0.568, 2.623, 0.457],
+        labels: ['Antonio', 'Francisco', 'João', 'Maria', 'Neide', 'Oliver']
     }
     
     const options = {

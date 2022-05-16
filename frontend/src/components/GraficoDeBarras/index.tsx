@@ -11,12 +11,12 @@ const GraficoDeBarras = () => {
     
     const mockData = {
         labels: {
-            categories: ['Anakin', 'Barry Allen', 'Kal-El', 'Logan', 'Padmé']
+            categories: ['Antonio', 'Francisco', 'João', 'Maria', 'Neide', 'Oliver']
         },
         series: [
             {
-                name: "% Sucesso",
-                data: [43.6, 67.1, 67.7, 45.6, 71.1]                   
+                name: "Valor médio de vendas:  R$",
+                data: [104.00, 109.59, 104.30, 94.66, 109.33, 149.32]                   
             }
         ]
     };

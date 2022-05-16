@@ -21,7 +21,7 @@ function App() {
           </div>
 
           <div className="col-sm-6">
-            <h5 className="text-center text-secondary"> Comissão </h5>
+            <h5 className="text-center text-secondary">Valores distribuidos da Comissão </h5>
             <GraficoDeRosca />
           </div>          
 
